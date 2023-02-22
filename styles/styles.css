@@ -122,3 +122,35 @@ header .navbar li a:hover {
     width: 270px;
     box-shadow: 50px 50px 0 0 #bbbeef;
 }
+/* Servicios */
+.servicios {
+    background-color: #31356b;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo {
+    font-size: 2em;
+    font-weight: 800;
+    color: #bbbeef;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+.textBox {
+    width: 55vw;
+    position: relative;
+}
+.textBox p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3vh;
+}
+.servicios .cards {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10vw;
+    padding-top: 3vh;
+}
