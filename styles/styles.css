@@ -65,3 +65,60 @@ header .navbar li a {
 header .navbar li a:hover {
     color: #bbbeef;
 }
+/* Contenido */
+.contenido {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3vw;
+}
+.contenido .tituloBox {
+    position: relative;
+    max-width: 60vw;
+}
+.contenido .tituloBox h2 {
+    font-size: 3em;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.contenido .tituloBox h2 span {
+    color: #bbbeef;
+    font-weight: 800;
+}
+.contenido .tituloBox h3 {
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 1.5vh;
+}
+.contenido .tituloBox p {
+    color: #fff;
+    margin-bottom: 5vh;
+}
+.contenido .tituloBox a {
+    border: 1px solid #bbbeef;
+    padding: 10px 20px;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.3s;
+    text-transform: uppercase;
+    color: #bbbeef;
+}
+.contenido .tituloBox a:hover {
+    background-color: #bbbeef;
+    color: #222549;
+}
+.contenido .imgBox {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido .imgBox img {
+    width: 270px;
+    box-shadow: 50px 50px 0 0 #bbbeef;
+}
