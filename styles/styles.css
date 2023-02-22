@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 400;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #222549;
+    overflow-x: hidden;
+}
+/* Inico y Header */
+section {
+    padding: 10vh 10vw;
+}
+.inicio {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4vh 9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    transition: 0.3s;
+}
+header .logo {
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 1vw;
+}
+header .logo span {
+    color: #bbbeef;
+    font-weight: 700;
+}
+/* Navbar */
+header .navbar {
+    position: relative;
+    display: flex;
+}
+header .navbar li {
+    list-style: none;
+    padding-left: 3vw;
+}
+header .navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 1vh 1vw;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+header .navbar li a:hover {
+    color: #bbbeef;
+}
