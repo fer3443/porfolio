@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 400;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -32,6 +33,11 @@ header {
     align-items: center;
     z-index: 10000;
     transition: 0.3s;
+}
+header.sticky {
+    background-color: #31356b;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 header .logo {
     font-size: 2em;
@@ -295,4 +301,16 @@ header .navbar li a:hover {
 }
 .contacto .cardContacto .card .contenidoCard p {
     font-weight: 600;
+}
+/* Footer */
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px;
 }
