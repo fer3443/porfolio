@@ -169,6 +169,7 @@ header .navbar li a:hover {
     font-weight: 700;
     margin-bottom: 10px;
 }
+/* Portfolio */
 .portfolio {
     position: relative;
     display: flex;
@@ -206,4 +207,57 @@ header .navbar li a:hover {
     color: #bbbeef;
     text-decoration: none;
     font-weight: 500;
+}
+/* Testimonios */
+.testimonios {
+    position: relative;
+    background-color: #31356b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonios .cardTestimonios {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.testimonios .cardTestimonios .card {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.testimonios .cardTestimonios .card .cardImg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 15px 15px 0 0 #bbbeef;
+}
+.testimonios .cardTestimonios .card .cardImg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonios .cardTestimonios .card .tituloCard h2 {
+    color: #bbbeef;
+    font-weight: 700;
+}
+.testimonios .cardTestimonios .card .contenidoCard {
+    width: 400px;
+}
+.testimonios .cardTestimonios .card .contenidoCard p {
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
 }
