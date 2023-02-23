@@ -136,7 +136,7 @@ header .navbar li a:hover {
     font-weight: 800;
     color: #bbbeef;
     text-align: center;
-    margin-bottom: 1vh;
+    margin-bottom: 10px;
 }
 .textBox {
     width: 55vw;
@@ -145,12 +145,65 @@ header .navbar li a:hover {
 .textBox p {
     text-align: center;
     color: #fff;
-    margin-bottom: 3vh;
+    margin-bottom: 30px;
 }
 .servicios .cards {
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10vw;
-    padding-top: 3vh;
+    gap: 80px;
+    padding-top: 30px;
+}
+.servicios .cards .card {
+    background-color: #222549;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    width: 350px;
+    height: 300px;
+}
+.servicios .cards .card .iconoCard {
+    font-size: 4em;
+}
+.servicios .cards .card .tituloCard h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.portfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio .cardPortfolio {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    margin-bottom: 3vh;
+}
+.portfolio .cardPortfolio .card {
+    text-align: left;
+    color: #fff;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+}
+.portfolio .cardPortfolio .card .cardImg {
+    width: 400px;
+}
+.portfolio .cardPortfolio .card .cardImg img {
+    width: 100%;
+}
+.portfolio .cardPortfolio .card p {
+    font-size: 1em;
+}
+.portfolio .cardPortfolio .card p span {
+    font-weight: 800;
+}
+.portfolio .cardPortfolio .card a {
+    color: #bbbeef;
+    text-decoration: none;
+    font-weight: 500;
 }
